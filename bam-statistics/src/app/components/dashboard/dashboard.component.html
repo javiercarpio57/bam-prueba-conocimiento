@@ -1,0 +1,6 @@
+<section class="prose p-10 min-w-full">
+    <h1>Dashboard</h1>
+    <p>Made by Javier Carpio</p>
+    <app-bar-chart *ngIf="!is_loading" [data]="transaction_by_amount"></app-bar-chart>
+    <app-bar-chart *ngIf="!is_loading" [data]="top_clientes"></app-bar-chart>
+</section>
